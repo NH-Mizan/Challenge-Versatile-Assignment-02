@@ -1,0 +1,176 @@
+/* -------------------------
+   Mobile Device Responsive 
+---------------------------- */
+@media screen and (max-width:576px) {
+   
+    .container{
+      max-width: 90%;
+      /* border: 2px solid red; */
+     
+    }
+
+    .mobile-menu{
+      display: block;
+    }
+    .nav-item ul{
+      display: none;
+    }
+    .banner-inner{
+      grid-template-columns: 1.5fr;
+    }
+    img.banner-img-sub {
+      width: 90%;
+  }
+    
+    .bmi-section-title .section-title{
+      margin-left: 20px;
+    }
+    .habits-item,
+    .bmi-area, 
+    .our-team-inner,
+    .footer-inner,
+    .run-easily-inner,
+    .services-inner{
+      grid-template-columns: 1fr;
+      
+    }
+    .trainings-section{
+      display: none;
+    }
+    .bmi-area .bmi-des table td,th{
+      width: 150px;
+    }
+    .bmi-input-item form input{
+     
+      width: 39%;
+    }
+    .bmi-input-item form select{
+      width: 43%;
+    }
+    .bmi-input-item form .factor-input{
+      width: 90.5%;
+    }
+    
+    .contain-1{
+      transform: translate(10px, 360px);
+    } 
+    .contain-2{
+      transform: translate(180px, 60px);
+    }
+    .contain-2 button{
+      width: 120px;
+    }
+    .contain-2 button p{
+      font-size: 10px;
+    } 
+    .banner-des h1 {
+      font-size: 45px; 
+    } 
+    p{
+      font-size: 15px;
+    }
+    .btn-primary{
+      width: 95%;
+    }
+    .btn-primary button{
+      width: 50%;
+      font-size: 15px;
+    }
+    .btn-primary .child{
+      margin-left: 10px;
+    }
+    .section-title{
+      margin-top: 50px;
+      
+    }
+    .sub-menu{
+      margin-top: 0;
+    }
+    .bmi-des{
+      margin-bottom: 30px;
+    }
+    .section-title h1{
+      font-size: 30px;
+    }
+    .run-easily-info h1 {
+      font-size: 40px;
+    }
+    .footer-sub-inner{
+      grid-template-columns: 1fr;
+    }
+    .run-easily-info h1 {
+      font-size: 32px;
+  }
+  }
+  
+   
+
+    
+
+/* -------------------------
+   Tab Device Responsive 
+---------------------------- */
+@media screen and (min-width:576px) and (max-width:992px) {
+  
+   .container{
+      max-width: 90%;
+    }
+    .nav-item ul {
+      gap: 20px;
+    }
+    .banner-inner{
+      grid-template-columns: 1.5fr;
+    }
+    .habits-item{
+      grid-template-columns: 1fr 1fr;
+    }
+    .section-title{
+      margin-top: 50px;
+
+    }
+    .contain-1{
+      transform: translate(10px, 400px);
+    } 
+    .contain-2{
+      transform: translate(185px, 60px);
+    }
+   
+    .banner-img{
+      margin-left: 180px;
+    }
+    
+    .sub-menu{
+      margin-top: 0;
+    }
+    .bmi-section-title .section-title{
+      margin-left: 100px;
+    }
+    .bmi-area{
+    grid-template-columns: 1fr;
+    }
+    .bmi-des{
+      margin-bottom: 30px;
+    }
+    .bmi-input-item form input{
+     
+      width: 41%;
+    }
+    .bmi-input-item form select{
+      width: 43%;
+    }
+    .bmi-input-item form .factor-input{
+      width:88%;
+    }
+    .run-easily-inner{
+      gap: 10px;
+      grid-template-columns:300px calc(100% - 300px - 10px);
+    }
+    .footer-inner{
+      grid-template-columns: 1fr;
+    }
+    .trainings-section{
+      display: none;
+    }
+
+
+}
