@@ -57,15 +57,14 @@ header{
 }
 .nav-item ul{
     display: flex;
-    gap: 30px;
+    gap: 40px;
     border: 2px solid #ffffff4e ;
-    padding: 14px 25px 13px 0 ;
+    padding: 12px  0 ;
     border-radius: 40px;
+   
 }
 .active{
     background-color: #E6533C;
-    padding: 13px 35px;
-    border-radius:40px;
 }
 .nav-item ul li {
     list-style: none;
@@ -76,10 +75,15 @@ header{
     color: #FFFFFF;
     font-size: 17px;
     font-weight: 600;
-    margin-right: 15px;
- 
-   
     
+    padding: 13px 30px;
+    border-radius:40px;
+    transition: all 0.5s;
+}
+.nav-item ul li a:hover{
+    background-color: #E6533C;
+    transition: all 0.5s;
+
 }
 .mobile-menu{
     display: none;
@@ -438,6 +442,7 @@ header{
     background-color: #222222;
     padding: 15px;
     border-radius: 10px;
+    margin-bottom: 30px;
    
 }
 /*-----------------------------
@@ -445,11 +450,21 @@ Services Section Style Start
 ----------------------------------- */
 .ser-icon a {
     color: #FFFFFF;
-}
+} 
+.ser-bg{
+    background: url(../images/ser-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #0000004f;
+    background-blend-mode: overlay;
+  
+}                                 
 .services-inner{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 35px;
+    
 }
 .services-contain{
     border: 2px solid #ffffff4e;
@@ -457,16 +472,17 @@ Services Section Style Start
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    
+    padding: 3px;
     text-align: center;
     flex-direction: column;
-    background-color: #a0a0a032;
+    background-color: #a0a0a04d;
     transition: all 0.5s;
+    backdrop-filter: blur(5px);
 }
 
 .services-contain:hover{
     box-shadow: 2px 2px 20px #ffffff57;
-    background-color: #000000;
+    background-color: #00000080;
     transition: all 0.5s;
 }
 .ser-icon a svg{
@@ -477,12 +493,37 @@ Services Section Style Start
 .ser-btn{
     background-color: #E6533C;
     padding: 10px 20px;
-    border: 1px solid #d5d5d5;
+    border: 2px solid #d5d5d5;
     border-radius: 10px;
     color: #FFFFFF;
     font-size: 15px;
     margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+   
 }
+.ser-btn::after{
+    content:"";
+    position: absolute;
+    background-color: #a0a0a0;
+    top: 0;
+    right: -200px;
+    height: 100%;
+    width: 100%;
+    transition: all 0.6s;
+    z-index: -1;
+ 
+   
+}
+.ser-btn:hover::after{
+    right: 0;
+    transition: all 0.6s;
+  
+    
+}
+
+
 
 
 
