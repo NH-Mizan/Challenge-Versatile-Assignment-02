@@ -8,6 +8,12 @@
       /* border: 2px solid red; */
      
     }
+    header{
+      padding-top: 20px;
+    }
+    .logo h1{
+      font-size: 35px;
+    }
 
     .mobile-menu{
       display: block;
@@ -64,7 +70,7 @@
       font-size: 10px;
     } 
     .banner-des h1 {
-      font-size: 45px; 
+      font-size: 40px; 
     } 
     p{
       font-size: 15px;
@@ -115,6 +121,10 @@
    .container{
       max-width: 90%;
     }
+    header{
+      padding-top: 20px;
+    }
+    
     .nav-item ul {
       gap: 10px;
     }
