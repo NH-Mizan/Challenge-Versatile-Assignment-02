@@ -3,9 +3,9 @@
 ----------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 /* --------------------------------
-    Damion Font-Family 
+   font-family: "Dancing Script", cursive; 
 ----------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Dancing+Script:wght@400..700&display=swap');
 /* --------------------------------
     Common Css Start 
 ----------------------------------- */
@@ -111,8 +111,8 @@ header{
     
 }
 .banner-des h1 span{
-    font-family: Damion;
-    font-family: 25px ;
+    font-family: "Dancing Script", cursive;
+    font-size: 80px ;
     font-weight: 500;
 }
 .btn-primary{
